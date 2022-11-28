@@ -1,0 +1,22 @@
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.control button {
+  padding: 10px;
+  min-width: 83px;
+  font-size: 3rem;
+}
+.counter__value {
+  font-size: 3rem;
+}
+
+.high {
+  color: green;
+}
+
+.low {
+  color: tomato;
+  border: 1px solid tomato;
+}
